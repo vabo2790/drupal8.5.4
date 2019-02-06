@@ -252,6 +252,8 @@ $databases = array();
  * @endcode
  */
 $config_directories = array();
+// per mostrare errori
+$config['system.logging']['error_level'] = 'verbose';
 
 /**
  * Settings:
